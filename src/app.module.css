@@ -1,0 +1,59 @@
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 10px;
+  font-size: 20px;
+}
+
+.container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(0, 153, 255);
+  color: #fff;
+  border: none;
+  padding: 0 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.error {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 10px;
+  font-size: 20px;
+  box-shadow: 0px 5px 10px 2px rgba(255, 0, 0, 0.33);
+}
+
+.isError {
+  color: rgb(201, 0, 0);
+  font-style: italic;
+  font-size: 24px;
+}
+
+.done {
+  box-shadow: 0px 5px 10px 2px rgba(0, 255, 30, 0.4);
+}
+
+.sent {
+  color: green;
+  font-style: italic;
+  font-size: 24px;
+}
